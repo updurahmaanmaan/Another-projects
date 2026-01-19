@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Dom projects</title>
+  </head>
+  <link rel="stylesheet" href="projects.css" />
+  <body>
+    <p>Youtube subscribe button</p>
+    <button onclick="subscribe()" class="Btn1">Subscribe</button>
+
+    <p>Amazon shipping Calculator</p>
+    <p>Orders under $40 = +$10 shipping.</p>
+    <p>Orders over $40 = FREE shipping.</p>
+    <input
+      type="text"
+      placeholder="Cost of Order"
+      class="js-input"
+      onkeydown="handleCostKey()"
+    />
+    <button class="Calculate" onclick="calculateTotal()">Calculate</button>
+    <p class="js-total-cost"></p>
+    <p>
+      <span href="https://updurahmaanmaan.github.io/Js-project/"
+        >Click here</span
+      >
+      to see rock paper scissors game
+    </p>
+
+    <script src="projects.js"></script>
+  </body>
+</html>
